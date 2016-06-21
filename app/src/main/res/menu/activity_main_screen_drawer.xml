@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About Git" />
+    <item
+        android:id="@+id/nav_webview"
+        android:title="Webview" />
+    <item
+        android:id="@+id/nav_ideacorner"
+        android:title="Ideacorner" />
+    <item
+        android:id="@+id/nav_Events"
+        android:title="Events" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+
+
+</menu>

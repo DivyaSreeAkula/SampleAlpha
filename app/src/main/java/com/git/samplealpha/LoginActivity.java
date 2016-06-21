@@ -73,6 +73,7 @@ public class LoginActivity extends AppCompatActivity {
     public void signin(View v) {
 //on entering a valid email id
         if (isValidEmail(mail.getText().toString()) && isPasswordValid(password.getText().toString())) {
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
             //check whether the entered email id and password is regestered or not
         } else {
             // display invalid email id or invalid password
